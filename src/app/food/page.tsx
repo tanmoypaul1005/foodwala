@@ -6,6 +6,7 @@ import { AnimatePresence } from "framer-motion"
 import { useState } from "react";
 
 const Food= () => {
+
     const [foods, setFoods] = useState(data);
 
     const filterType = (category:any) => {
