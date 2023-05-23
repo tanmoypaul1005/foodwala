@@ -62,7 +62,7 @@ function Checkout() {
                         <div className="relative">
                             <input className="peer hidden" id="radio_1" type="radio" name="radio" checked />
                             <span className="peer-checked:border-gray-700 absolute right-4 top-1/2 box-content block h-3 w-3 -translate-y-1/2 rounded-full border-8 border-gray-300 bg-white"></span>
-                            <label className="peer-checked:border-2 peer-checked:border-gray-700 peer-checked:bg-gray-50 flex cursor-pointer select-none rounded-lg border border-gray-300 p-4" for="radio_1">
+                            <label className="peer-checked:border-2 peer-checked:border-gray-700 peer-checked:bg-gray-50 flex cursor-pointer select-none rounded-lg border border-gray-300 p-4">
                                 <img className="w-14 object-contain" src="/images/naorrAeygcJzX0SyNI4Y0.png" alt="" />
                                 <div className="ml-5">
                                     <span className="mt-2 font-semibold">Fedex Delivery</span>
@@ -73,7 +73,7 @@ function Checkout() {
                         <div className="relative">
                             <input className="peer hidden" id="radio_2" type="radio" name="radio" checked />
                             <span className="peer-checked:border-gray-700 absolute right-4 top-1/2 box-content block h-3 w-3 -translate-y-1/2 rounded-full border-8 border-gray-300 bg-white"></span>
-                            <label className="peer-checked:border-2 peer-checked:border-gray-700 peer-checked:bg-gray-50 flex cursor-pointer select-none rounded-lg border border-gray-300 p-4" for="radio_2">
+                            <label className="peer-checked:border-2 peer-checked:border-gray-700 peer-checked:bg-gray-50 flex cursor-pointer select-none rounded-lg border border-gray-300 p-4" >
                                 <img className="w-14 object-contain" src="/images/oG8xsl3xsOkwkMsrLGKM4.png" alt="" />
                                 <div className="ml-5">
                                     <span className="mt-2 font-semibold">Fedex Delivery</span>
@@ -89,7 +89,7 @@ function Checkout() {
                     <p className="text-gray-400">Complete your order by providing your payment details.</p>
                     <div className="">
 
-                        <label for="email" className="mt-4 mb-2 block text-sm font-medium">Email</label>
+                        <label className="mt-4 mb-2 block text-sm font-medium">Email</label>
                         <div className="relative">
                             <input type="text" id="email" name="email" 
                             className="w-full rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm 
@@ -102,7 +102,7 @@ function Checkout() {
                             </div>
                         </div>
 
-                        <label for="email" className="mt-4 mb-2 block text-sm font-medium">Name</label>
+                        <label className="mt-4 mb-2 block text-sm font-medium">Name</label>
                         <div className="relative">
                             <input type="text" id="email" name="email"
                                 className="w-full rounded-md border border-gray-200 px-4 py-3 pl-5 text-sm shadow-sm outline-none focus:z-10
@@ -113,9 +113,9 @@ function Checkout() {
                         </div>
 
 
-                        <label for="email" className="mt-4 mb-2 block text-sm font-medium">Address</label>
+                        <label className="mt-4 mb-2 block text-sm font-medium">Address</label>
                         <div className="relative">
-                            <textarea type="text" id="email" name="email"
+                            <textarea  id="email" name="email"
                                 className="w-full rounded-md border border-gray-200 px-4 py-3 pl-5 
                                 text-sm shadow-sm outline-none focus:z-10
                               focus:border-blue-500 focus:ring-blue-500"
